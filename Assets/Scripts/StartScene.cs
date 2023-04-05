@@ -8,7 +8,6 @@ public class StartScene : MonoBehaviour
 {
     [SerializeField] private TMP_Text userID_text;
     [SerializeField] private Button button;
-    [SerializeField] private GameObject canvas;
     [SerializeField] private TMP_Dropdown dropdown;
     
     // Start is called before the first frame update
@@ -22,7 +21,8 @@ public class StartScene : MonoBehaviour
     {
         Debug.Log("Button clicked with argument: " + dropdown.value);
         ExperimentManager.calmingSetup = dropdown.value == 1;
-        ExperimentManager.Load(ExperimentManager.Scene.StressScene);
+        ExperimentManager.SetSceneList();
+        ExperimentManager.LoadNextScene();
     }
     
     
