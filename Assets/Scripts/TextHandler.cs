@@ -29,7 +29,7 @@ public class TextHandler : MonoBehaviour
     
     private IEnumerator Countdown()
     {
-        yield return new WaitForSeconds(10f); // 5 minutes = 300
+        yield return new WaitForSeconds(300f); // 5 minutes = 300
         ExperimentManager.LoadNextScene();
     }
 }
