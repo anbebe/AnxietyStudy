@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SelfReportScene.unity
     guid: f863736c243a6aebbbcb3f0bd75bab55
+  - enabled: 1
+    path: Assets/Scenes/NeutralScene.unity
+    guid: 6e1f64b7471772febb9a40d4e44b39e7
+  - enabled: 1
+    path: Assets/Scenes/TextScene.unity
+    guid: fefa0a62b230376078af2bfd297395d3
   m_configObjects:
     Unity.XR.OpenVR.Settings: {fileID: 11400000, guid: a55c3c01f16fee5e697419df7f95fb5b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2ca8fedd2170c2c07bcf197ca675b11b, type: 2}
